@@ -1,0 +1,1 @@
+This is really an extension of Problem 3 from Project Euler, which was looking for the largest prime factor of 600851475143. I changed my code a bit to spit out a list containing a factor tree. 

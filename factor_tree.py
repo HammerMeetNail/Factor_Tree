@@ -1,5 +1,5 @@
 """
-Creates a list of factors within for any given integer.
+Creates a list of factors for any given positive integer.
 """
 
 num = int(raw_input('Please enter a number: '))
@@ -17,6 +17,8 @@ def factor_tree(num):
             L1.append([i,num])
             print 'num =', num
         i += 1
+    if not L1: #Kicks in only if num is prime
+            L1.append([1,num])
     return L1
 
 print factor_tree(num)
